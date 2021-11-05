@@ -9,7 +9,7 @@
 
 #After using caching
 
-FROM node:latest
+FROM node:alpine
 WORKDIR /app
 ADD package*.json ./
 RUN npm install
